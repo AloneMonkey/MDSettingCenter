@@ -42,6 +42,7 @@
 }
 
 -(void)setBgColor:(UIColor *)bgColor{
+    _bgColor = bgColor;
     self.backgroundColor = [bgColor colorWithAlphaComponent:0.6];
 }
 

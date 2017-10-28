@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938951FA321C100E945CD /* MDTextFieldData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C938981FA321C100E945CD /* MDTextFieldData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938961FA321C100E945CD /* MDTextFieldData.m */; };
+		86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938991FA321CF00E945CD /* MDTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C9389C1FA321CF00E945CD /* MDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */; };
+		86C938A01FA33CED00E945CD /* MDSegmentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C9389E1FA33CED00E945CD /* MDSegmentData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C938A11FA33CED00E945CD /* MDSegmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389F1FA33CED00E945CD /* MDSegmentData.m */; };
+		86C938A41FA33CFC00E945CD /* MDSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938A21FA33CFC00E945CD /* MDSegmentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C938A51FA33CFC00E945CD /* MDSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938A31FA33CFC00E945CD /* MDSegmentCell.m */; };
+		86C938A91FA3489000E945CD /* MDStepperData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938A71FA3489000E945CD /* MDStepperData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C938AA1FA3489000E945CD /* MDStepperData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938A81FA3489000E945CD /* MDStepperData.m */; };
+		86C938AD1FA3489C00E945CD /* MDStepperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938AB1FA3489C00E945CD /* MDStepperCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C938AE1FA3489C00E945CD /* MDStepperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938AC1FA3489C00E945CD /* MDStepperCell.m */; };
+		8CD09A041FA231FB00751286 /* MDSettingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A031FA231FB00751286 /* MDSettingCenter.m */; };
+		8CD09A081FA231FB00751286 /* MDSettingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A021FA231FB00751286 /* MDSettingCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A2A1FA233C000751286 /* MDSwitchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A261FA2333000751286 /* MDSwitchData.m */; };
+		8CD09A2B1FA233C000751286 /* MDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A281FA2333000751286 /* MDSwitchCell.m */; };
+		8CD09A2C1FA233C000751286 /* MDTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A241FA2332200751286 /* MDTableViewData.m */; };
+		8CD09A2D1FA233C000751286 /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A211FA2332200751286 /* MDTableViewCell.m */; };
+		8CD09A2E1FA233C000751286 /* MDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A1E1FA2330600751286 /* MDSettingsViewController.m */; };
+		8CD09A2F1FA233C000751286 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A141FA2323D00751286 /* UIView+Frame.m */; };
+		8CD09A301FA233C000751286 /* UIColor+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A161FA2323D00751286 /* UIColor+ColorUtils.m */; };
+		8CD09A331FA233C000751286 /* MDSuspendBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A0F1FA2322000751286 /* MDSuspendBall.m */; };
+		8CD09A341FA233CD00751286 /* MDSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1F1FA2330600751286 /* MDSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A351FA233CD00751286 /* MDSuspendBall.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A101FA2322000751286 /* MDSuspendBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A3D1FA2341D00751286 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD09A3E1FA2341D00751286 /* Masonry.framework */; };
+		8CD09A401FA239A600751286 /* MDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A3F1FA239A600751286 /* MDConstants.m */; };
+		8CD09A451FA23B4A00751286 /* MDSwitchData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A291FA2333000751286 /* MDSwitchData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A461FA23B4A00751286 /* MDSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A271FA2333000751286 /* MDSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A471FA23BF400751286 /* MDTableViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A221FA2332200751286 /* MDTableViewData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A481FA23BF400751286 /* MDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A231FA2332200751286 /* MDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A4A1FA23D4B00751286 /* MDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1B1FA2324F00751286 /* MDConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1C1FA2324F00751286 /* MDColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A4C1FA23D6500751286 /* UIColor+ColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A181FA2323D00751286 /* UIColor+ColorUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A811FA424A000751286 /* MDTableViewGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD09A821FA424A000751286 /* MDTableViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A801FA424A000751286 /* MDTableViewGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C938951FA321C100E945CD /* MDTextFieldData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldData.h; sourceTree = "<group>"; };
+		86C938961FA321C100E945CD /* MDTextFieldData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextFieldData.m; sourceTree = "<group>"; };
+		86C938991FA321CF00E945CD /* MDTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldCell.h; sourceTree = "<group>"; };
+		86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextFieldCell.m; sourceTree = "<group>"; };
+		86C9389E1FA33CED00E945CD /* MDSegmentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSegmentData.h; sourceTree = "<group>"; };
+		86C9389F1FA33CED00E945CD /* MDSegmentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSegmentData.m; sourceTree = "<group>"; };
+		86C938A21FA33CFC00E945CD /* MDSegmentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSegmentCell.h; sourceTree = "<group>"; };
+		86C938A31FA33CFC00E945CD /* MDSegmentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSegmentCell.m; sourceTree = "<group>"; };
+		86C938A71FA3489000E945CD /* MDStepperData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDStepperData.h; sourceTree = "<group>"; };
+		86C938A81FA3489000E945CD /* MDStepperData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStepperData.m; sourceTree = "<group>"; };
+		86C938AB1FA3489C00E945CD /* MDStepperCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDStepperCell.h; sourceTree = "<group>"; };
+		86C938AC1FA3489C00E945CD /* MDStepperCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStepperCell.m; sourceTree = "<group>"; };
+		8CD099FF1FA231FB00751286 /* MDSettingCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDSettingCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09A021FA231FB00751286 /* MDSettingCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSettingCenter.h; sourceTree = "<group>"; };
+		8CD09A031FA231FB00751286 /* MDSettingCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSettingCenter.m; sourceTree = "<group>"; };
+		8CD09A071FA231FB00751286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD09A0F1FA2322000751286 /* MDSuspendBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSuspendBall.m; sourceTree = "<group>"; };
+		8CD09A101FA2322000751286 /* MDSuspendBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSuspendBall.h; sourceTree = "<group>"; };
+		8CD09A121FA2323D00751286 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8CD09A141FA2323D00751286 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8CD09A161FA2323D00751286 /* UIColor+ColorUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorUtils.m"; sourceTree = "<group>"; };
+		8CD09A181FA2323D00751286 /* UIColor+ColorUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorUtils.h"; sourceTree = "<group>"; };
+		8CD09A1B1FA2324F00751286 /* MDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConstants.h; sourceTree = "<group>"; };
+		8CD09A1C1FA2324F00751286 /* MDColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDColor.h; sourceTree = "<group>"; };
+		8CD09A1E1FA2330600751286 /* MDSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSettingsViewController.m; sourceTree = "<group>"; };
+		8CD09A1F1FA2330600751286 /* MDSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSettingsViewController.h; sourceTree = "<group>"; };
+		8CD09A211FA2332200751286 /* MDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewCell.m; sourceTree = "<group>"; };
+		8CD09A221FA2332200751286 /* MDTableViewData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewData.h; sourceTree = "<group>"; };
+		8CD09A231FA2332200751286 /* MDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewCell.h; sourceTree = "<group>"; };
+		8CD09A241FA2332200751286 /* MDTableViewData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewData.m; sourceTree = "<group>"; };
+		8CD09A261FA2333000751286 /* MDSwitchData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSwitchData.m; sourceTree = "<group>"; };
+		8CD09A271FA2333000751286 /* MDSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSwitchCell.h; sourceTree = "<group>"; };
+		8CD09A281FA2333000751286 /* MDSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSwitchCell.m; sourceTree = "<group>"; };
+		8CD09A291FA2333000751286 /* MDSwitchData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSwitchData.h; sourceTree = "<group>"; };
+		8CD09A3E1FA2341D00751286 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD09A3F1FA239A600751286 /* MDConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConstants.m; sourceTree = "<group>"; };
+		8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewGroup.h; sourceTree = "<group>"; };
+		8CD09A801FA424A000751286 /* MDTableViewGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD099FB1FA231FB00751286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09A3D1FA2341D00751286 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C938941FA3217B00E945CD /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				86C938951FA321C100E945CD /* MDTextFieldData.h */,
+				86C938961FA321C100E945CD /* MDTextFieldData.m */,
+				86C938991FA321CF00E945CD /* MDTextFieldCell.h */,
+				86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		86C9389D1FA335CD00E945CD /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				86C9389E1FA33CED00E945CD /* MDSegmentData.h */,
+				86C9389F1FA33CED00E945CD /* MDSegmentData.m */,
+				86C938A21FA33CFC00E945CD /* MDSegmentCell.h */,
+				86C938A31FA33CFC00E945CD /* MDSegmentCell.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		86C938A61FA3485500E945CD /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				86C938A71FA3489000E945CD /* MDStepperData.h */,
+				86C938A81FA3489000E945CD /* MDStepperData.m */,
+				86C938AB1FA3489C00E945CD /* MDStepperCell.h */,
+				86C938AC1FA3489C00E945CD /* MDStepperCell.m */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		8CD099F51FA231FB00751286 = {
+			isa = PBXGroup;
+			children = (
+				8CD09A011FA231FB00751286 /* MDSettingCenter */,
+				8CD09A001FA231FB00751286 /* Products */,
+				8CD09A3C1FA2341D00751286 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD09A001FA231FB00751286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD099FF1FA231FB00751286 /* MDSettingCenter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD09A011FA231FB00751286 /* MDSettingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A201FA2331700751286 /* Cell */,
+				8CD09A1D1FA232FE00751286 /* ViewController */,
+				8CD09A1A1FA2324900751286 /* Values */,
+				8CD09A111FA2323400751286 /* CommonView */,
+				8CD09A0E1FA2321000751286 /* Views */,
+				8CD09A021FA231FB00751286 /* MDSettingCenter.h */,
+				8CD09A031FA231FB00751286 /* MDSettingCenter.m */,
+				8CD09A071FA231FB00751286 /* Info.plist */,
+			);
+			path = MDSettingCenter;
+			sourceTree = "<group>";
+		};
+		8CD09A0E1FA2321000751286 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A101FA2322000751286 /* MDSuspendBall.h */,
+				8CD09A0F1FA2322000751286 /* MDSuspendBall.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CD09A111FA2323400751286 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A121FA2323D00751286 /* UIView+Frame.h */,
+				8CD09A141FA2323D00751286 /* UIView+Frame.m */,
+				8CD09A181FA2323D00751286 /* UIColor+ColorUtils.h */,
+				8CD09A161FA2323D00751286 /* UIColor+ColorUtils.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		8CD09A1A1FA2324900751286 /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A1B1FA2324F00751286 /* MDConstants.h */,
+				8CD09A3F1FA239A600751286 /* MDConstants.m */,
+				8CD09A1C1FA2324F00751286 /* MDColor.h */,
+			);
+			path = Values;
+			sourceTree = "<group>";
+		};
+		8CD09A1D1FA232FE00751286 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A1F1FA2330600751286 /* MDSettingsViewController.h */,
+				8CD09A1E1FA2330600751286 /* MDSettingsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8CD09A201FA2331700751286 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				86C938A61FA3485500E945CD /* Stepper */,
+				86C9389D1FA335CD00E945CD /* Segment */,
+				86C938941FA3217B00E945CD /* TextField */,
+				8CD09A251FA2332900751286 /* Switch */,
+				8CD09A221FA2332200751286 /* MDTableViewData.h */,
+				8CD09A241FA2332200751286 /* MDTableViewData.m */,
+				8CD09A231FA2332200751286 /* MDTableViewCell.h */,
+				8CD09A211FA2332200751286 /* MDTableViewCell.m */,
+				8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */,
+				8CD09A801FA424A000751286 /* MDTableViewGroup.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8CD09A251FA2332900751286 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A291FA2333000751286 /* MDSwitchData.h */,
+				8CD09A261FA2333000751286 /* MDSwitchData.m */,
+				8CD09A271FA2333000751286 /* MDSwitchCell.h */,
+				8CD09A281FA2333000751286 /* MDSwitchCell.m */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		8CD09A3C1FA2341D00751286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CD09A3E1FA2341D00751286 /* Masonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CD099FC1FA231FB00751286 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09A081FA231FB00751286 /* MDSettingCenter.h in Headers */,
+				8CD09A341FA233CD00751286 /* MDSettingsViewController.h in Headers */,
+				8CD09A451FA23B4A00751286 /* MDSwitchData.h in Headers */,
+				8CD09A471FA23BF400751286 /* MDTableViewData.h in Headers */,
+				8CD09A481FA23BF400751286 /* MDTableViewCell.h in Headers */,
+				8CD09A4A1FA23D4B00751286 /* MDConstants.h in Headers */,
+				8CD09A4C1FA23D6500751286 /* UIColor+ColorUtils.h in Headers */,
+				86C938A91FA3489000E945CD /* MDStepperData.h in Headers */,
+				86C938AD1FA3489C00E945CD /* MDStepperCell.h in Headers */,
+				86C938A01FA33CED00E945CD /* MDSegmentData.h in Headers */,
+				86C938A41FA33CFC00E945CD /* MDSegmentCell.h in Headers */,
+				86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */,
+				86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */,
+				8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */,
+				8CD09A811FA424A000751286 /* MDTableViewGroup.h in Headers */,
+				8CD09A461FA23B4A00751286 /* MDSwitchCell.h in Headers */,
+				8CD09A351FA233CD00751286 /* MDSuspendBall.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CD099FE1FA231FB00751286 /* MDSettingCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD09A0B1FA231FB00751286 /* Build configuration list for PBXNativeTarget "MDSettingCenter" */;
+			buildPhases = (
+				8CD099FA1FA231FB00751286 /* Sources */,
+				8CD099FB1FA231FB00751286 /* Frameworks */,
+				8CD099FC1FA231FB00751286 /* Headers */,
+				8CD099FD1FA231FB00751286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDSettingCenter;
+			productName = MDSettingCenter;
+			productReference = 8CD099FF1FA231FB00751286 /* MDSettingCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD099F61FA231FB00751286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Coder;
+				TargetAttributes = {
+					8CD099FE1FA231FB00751286 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CD099F91FA231FB00751286 /* Build configuration list for PBXProject "MDSettingCenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CD099F51FA231FB00751286;
+			productRefGroup = 8CD09A001FA231FB00751286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD099FE1FA231FB00751286 /* MDSettingCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD099FD1FA231FB00751286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD099FA1FA231FB00751286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD09A2A1FA233C000751286 /* MDSwitchData.m in Sources */,
+				8CD09A2B1FA233C000751286 /* MDSwitchCell.m in Sources */,
+				8CD09A821FA424A000751286 /* MDTableViewGroup.m in Sources */,
+				8CD09A401FA239A600751286 /* MDConstants.m in Sources */,
+				8CD09A2C1FA233C000751286 /* MDTableViewData.m in Sources */,
+				8CD09A2D1FA233C000751286 /* MDTableViewCell.m in Sources */,
+				86C938A11FA33CED00E945CD /* MDSegmentData.m in Sources */,
+				86C938AE1FA3489C00E945CD /* MDStepperCell.m in Sources */,
+				86C938981FA321C100E945CD /* MDTextFieldData.m in Sources */,
+				86C938AA1FA3489000E945CD /* MDStepperData.m in Sources */,
+				86C9389C1FA321CF00E945CD /* MDTextFieldCell.m in Sources */,
+				8CD09A2E1FA233C000751286 /* MDSettingsViewController.m in Sources */,
+				8CD09A2F1FA233C000751286 /* UIView+Frame.m in Sources */,
+				8CD09A301FA233C000751286 /* UIColor+ColorUtils.m in Sources */,
+				8CD09A331FA233C000751286 /* MDSuspendBall.m in Sources */,
+				86C938A51FA33CFC00E945CD /* MDSegmentCell.m in Sources */,
+				8CD09A041FA231FB00751286 /* MDSettingCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CD09A091FA231FB00751286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CD09A0A1FA231FB00751286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MonkeyDevPath = /opt/MonkeyDev;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CD09A0C1FA231FB00751286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9XQEPG2J2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../WechatApp/Build/Products/Debug-iphoneos/Masonry\"";
+				INFOPLIST_FILE = MDSettingCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonemonkey.MDSettingCenter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD09A0D1FA231FB00751286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9XQEPG2J2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../WechatApp/Build/Products/Debug-iphoneos/Masonry\"";
+				INFOPLIST_FILE = MDSettingCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alonemonkey.MDSettingCenter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD099F91FA231FB00751286 /* Build configuration list for PBXProject "MDSettingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09A091FA231FB00751286 /* Debug */,
+				8CD09A0A1FA231FB00751286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD09A0B1FA231FB00751286 /* Build configuration list for PBXNativeTarget "MDSettingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD09A0C1FA231FB00751286 /* Debug */,
+				8CD09A0D1FA231FB00751286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD099F61FA231FB00751286 /* Project object */;
+}

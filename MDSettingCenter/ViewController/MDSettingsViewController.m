@@ -183,6 +183,10 @@
     }
 }
 
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 #pragma mark - private
 
 -(void)exit{

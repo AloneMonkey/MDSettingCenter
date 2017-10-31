@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "MDSettingCenter"                         #Pod的名字
-  spec.version          = "1.0.0"                                     #版本号
+  spec.version          = "1.0.1"                                     #版本号
   spec.summary          = "MDSettingCenter for MonkeyDev"
   spec.description      = <<-DESC                                     #Pod的描述
                           - Common Setting Center for MonkeyDev

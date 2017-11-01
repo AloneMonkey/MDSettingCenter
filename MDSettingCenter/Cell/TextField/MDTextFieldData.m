@@ -16,8 +16,10 @@
     if (self) {
         _enable = YES;
         _maxLength = 10;
+        _thisType = MDTextFieldDefaultKeyboard;
     }
     return self;
 }
 
 @end
+

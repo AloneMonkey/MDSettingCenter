@@ -77,6 +77,7 @@
     _tableview.dataSource = self;
     _tableview.scrollEnabled = YES;
     _tableview.rowHeight = 50;
+    _tableview.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
     [self.view addSubview:_tableview];
     
     _copyright = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, MDScreenWidth, 30)];
@@ -199,3 +200,4 @@
 }
 
 @end
+

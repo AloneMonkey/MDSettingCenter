@@ -79,7 +79,31 @@
     textField.placeholder = data.placeholder;
     textField.textAlignment = NSTextAlignmentRight;
     textField.delegate = self;
+    textField.keyboardType = [self getKeyboardType];
     self.textField = textField;
+}
+
+#pragma mark - helper
+- (UIKeyboardType)getKeyboardType {
+    UIKeyboardType keyboardType = UIKeyboardTypeDefault;
+    if (_textFieldData.thisType & MDTextFieldUsePicker) {
+        // TODO:
+    }
+    else {
+        if (_textFieldData.thisType & MDTextFieldNumberKeyboard) {
+            keyboardType = UIKeyboardTypeNumberPad;
+        }
+        else if (_textFieldData.thisType & MDTextFieldNumberAndPunctuationKeyboard) {
+            keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+        }
+        else if (_textFieldData.thisType & MDTextFieldURLKeyboard) {
+            keyboardType = UIKeyboardTypeURL;
+        }
+        else if (_textFieldData.thisType & MDTextFieldEmailKeyboard) {
+            keyboardType = UIKeyboardTypeEmailAddress;
+        }
+    }
+    return keyboardType;
 }
 
 #pragma mark - Actions.
@@ -95,3 +119,4 @@
 }
 
 @end
+

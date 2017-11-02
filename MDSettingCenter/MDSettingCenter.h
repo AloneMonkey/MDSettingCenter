@@ -17,7 +17,10 @@
 #import "MDSegmentCell.h"
 #import "MDStepperData.h"
 #import "MDStepperCell.h"
+#import "MDLabelData.h"
+#import "MDLabelCell.h"
 #import "MDSuspendBall.h"
+#import "UIView+Frame.h"
 #import "MDSettingsViewController.h"
 
 //! Project version number for MDSettingCenter.

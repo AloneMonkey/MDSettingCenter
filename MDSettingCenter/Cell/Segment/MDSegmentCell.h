@@ -10,14 +10,6 @@
 #import "MDTableViewCell.h"
 #import "MDSegmentData.h"
 
-@protocol MDSettingSegmentDelagate <NSObject>
-
-- (void)segmentValueChanged:(UISegmentedControl *)segment;
-
-@end
-
 @interface MDSegmentCell : MDTableViewCell
-
-@property (nonatomic, weak) id<MDSettingSegmentDelagate> delegate;
 
 @end

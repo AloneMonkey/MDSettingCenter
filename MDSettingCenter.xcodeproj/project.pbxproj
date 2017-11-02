@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A63F231FAB2F0C00C9019C /* MDLabelData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A63F211FAB2F0C00C9019C /* MDLabelData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A63F241FAB2F0C00C9019C /* MDLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A63F221FAB2F0C00C9019C /* MDLabelData.m */; };
+		86A63F271FAB2F1900C9019C /* MDLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A63F251FAB2F1900C9019C /* MDLabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A63F281FAB2F1900C9019C /* MDLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A63F261FAB2F1900C9019C /* MDLabelCell.m */; };
+		86A63F3F1FAB3AE600C9019C /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A121FA2323D00751286 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938951FA321C100E945CD /* MDTextFieldData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C938981FA321C100E945CD /* MDTextFieldData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938961FA321C100E945CD /* MDTextFieldData.m */; };
 		86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938991FA321CF00E945CD /* MDTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +50,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86A63F211FAB2F0C00C9019C /* MDLabelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLabelData.h; sourceTree = "<group>"; };
+		86A63F221FAB2F0C00C9019C /* MDLabelData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDLabelData.m; sourceTree = "<group>"; };
+		86A63F251FAB2F1900C9019C /* MDLabelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLabelCell.h; sourceTree = "<group>"; };
+		86A63F261FAB2F1900C9019C /* MDLabelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDLabelCell.m; sourceTree = "<group>"; };
 		86C938951FA321C100E945CD /* MDTextFieldData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldData.h; sourceTree = "<group>"; };
 		86C938961FA321C100E945CD /* MDTextFieldData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextFieldData.m; sourceTree = "<group>"; };
 		86C938991FA321CF00E945CD /* MDTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldCell.h; sourceTree = "<group>"; };
@@ -97,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86A63F201FAB2EF100C9019C /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				86A63F211FAB2F0C00C9019C /* MDLabelData.h */,
+				86A63F221FAB2F0C00C9019C /* MDLabelData.m */,
+				86A63F251FAB2F1900C9019C /* MDLabelCell.h */,
+				86A63F261FAB2F1900C9019C /* MDLabelCell.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
 		86C938941FA3217B00E945CD /* TextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +224,7 @@
 		8CD09A201FA2331700751286 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				86A63F201FAB2EF100C9019C /* Label */,
 				86C938A61FA3485500E945CD /* Stepper */,
 				86C9389D1FA335CD00E945CD /* Segment */,
 				86C938941FA3217B00E945CD /* TextField */,
@@ -257,6 +278,9 @@
 				86C938A41FA33CFC00E945CD /* MDSegmentCell.h in Headers */,
 				86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */,
 				86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */,
+				86A63F271FAB2F1900C9019C /* MDLabelCell.h in Headers */,
+				86A63F231FAB2F0C00C9019C /* MDLabelData.h in Headers */,
+				86A63F3F1FAB3AE600C9019C /* UIView+Frame.h in Headers */,
 				8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */,
 				8CD09A811FA424A000751286 /* MDTableViewGroup.h in Headers */,
 				8CD09A461FA23B4A00751286 /* MDSwitchCell.h in Headers */,
@@ -333,10 +357,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD09A2A1FA233C000751286 /* MDSwitchData.m in Sources */,
+				86A63F281FAB2F1900C9019C /* MDLabelCell.m in Sources */,
 				8CD09A2B1FA233C000751286 /* MDSwitchCell.m in Sources */,
 				8CD09A821FA424A000751286 /* MDTableViewGroup.m in Sources */,
 				8CD09A401FA239A600751286 /* MDConstants.m in Sources */,
 				8CD09A2C1FA233C000751286 /* MDTableViewData.m in Sources */,
+				86A63F241FAB2F0C00C9019C /* MDLabelData.m in Sources */,
 				8CD09A2D1FA233C000751286 /* MDTableViewCell.m in Sources */,
 				86C938A11FA33CED00E945CD /* MDSegmentData.m in Sources */,
 				86C938AE1FA3489C00E945CD /* MDStepperCell.m in Sources */,

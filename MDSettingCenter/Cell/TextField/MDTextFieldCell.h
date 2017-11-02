@@ -10,15 +10,7 @@
 #import "MDTableViewCell.h"
 #import "MDTextFieldData.h"
 
-@protocol MDSettingTextFieldDelagate <NSObject>
-
-- (void)textFieldDidEndEditing:(UITextField *)textField;
-
-@end
-
-
 @interface MDTextFieldCell : MDTableViewCell
 
-@property (nonatomic, weak) id<MDSettingTextFieldDelagate> delegate;
 
 @end

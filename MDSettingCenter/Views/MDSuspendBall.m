@@ -46,9 +46,10 @@
     self.backgroundColor = [bgColor colorWithAlphaComponent:0.6];
 }
 
--(void)addToWindow{
-    UIWindow* window = [UIApplication sharedApplication].keyWindow;
-    
+-(void)addToWindow:(UIWindow*) window{
+    if(!window){
+        window = [[UIApplication sharedApplication].windows firstObject];
+    }
     MDSuspendBall *suspendBall = [MDSuspendBall sharedInstance];
     [suspendBall removeFromSuperview];
     [window addSubview:suspendBall];

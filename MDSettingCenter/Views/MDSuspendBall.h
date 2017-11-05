@@ -18,6 +18,6 @@
 
 + (instancetype)sharedInstance;
 
--(void)addToWindow;
+-(void)addToWindow:(UIWindow*) window;
 
 @end

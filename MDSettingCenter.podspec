@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "MDSettingCenter"                         #Pod的名字
-  spec.version          = "1.0.2"                                     #版本号
+  spec.version          = "1.1.0"                                     #版本号
   spec.summary          = "MDSettingCenter for MonkeyDev"
   spec.description      = <<-DESC                                     #Pod的描述
                           - Common Setting Center for MonkeyDev
@@ -17,5 +17,4 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "MDSettingCenter/**/*.h"        #需要对外导出的头文件  此处为本地验证
   spec.requires_arc     = true                                       #ARC
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "NO", 'HEADER_SEARCH_PATHS' => '/opt/MonkeyDev/include' }          #这个必须有，不要修改
-  spec.dependency 'Masonry'
 end

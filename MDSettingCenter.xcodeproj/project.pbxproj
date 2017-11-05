@@ -7,29 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86A63F231FAB2F0C00C9019C /* MDLabelData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A63F211FAB2F0C00C9019C /* MDLabelData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86A63F241FAB2F0C00C9019C /* MDLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A63F221FAB2F0C00C9019C /* MDLabelData.m */; };
-		86A63F271FAB2F1900C9019C /* MDLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A63F251FAB2F1900C9019C /* MDLabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86A63F281FAB2F1900C9019C /* MDLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A63F261FAB2F1900C9019C /* MDLabelCell.m */; };
 		86A63F3F1FAB3AE600C9019C /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A121FA2323D00751286 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938951FA321C100E945CD /* MDTextFieldData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938981FA321C100E945CD /* MDTextFieldData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938961FA321C100E945CD /* MDTextFieldData.m */; };
-		86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938991FA321CF00E945CD /* MDTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C9389C1FA321CF00E945CD /* MDTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */; };
-		86C938A01FA33CED00E945CD /* MDSegmentData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C9389E1FA33CED00E945CD /* MDSegmentData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938A11FA33CED00E945CD /* MDSegmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C9389F1FA33CED00E945CD /* MDSegmentData.m */; };
-		86C938A41FA33CFC00E945CD /* MDSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938A21FA33CFC00E945CD /* MDSegmentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938A51FA33CFC00E945CD /* MDSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938A31FA33CFC00E945CD /* MDSegmentCell.m */; };
-		86C938A91FA3489000E945CD /* MDStepperData.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938A71FA3489000E945CD /* MDStepperData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938AA1FA3489000E945CD /* MDStepperData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938A81FA3489000E945CD /* MDStepperData.m */; };
-		86C938AD1FA3489C00E945CD /* MDStepperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C938AB1FA3489C00E945CD /* MDStepperCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86C938AE1FA3489C00E945CD /* MDStepperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C938AC1FA3489C00E945CD /* MDStepperCell.m */; };
-		8CD09A041FA231FB00751286 /* MDSettingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A031FA231FB00751286 /* MDSettingCenter.m */; };
+		8CA6998E1FAEC6570035A8B3 /* SettingForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA6998C1FAEC6570035A8B3 /* SettingForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA6998F1FAEC6570035A8B3 /* SettingForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6998D1FAEC6570035A8B3 /* SettingForm.m */; };
+		8CA699981FAECB4E0035A8B3 /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA699891FAEC6220035A8B3 /* FXForms.m */; };
+		8CA699991FAECB8A0035A8B3 /* FXForms.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA6998A1FAEC6220035A8B3 /* FXForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A081FA231FB00751286 /* MDSettingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A021FA231FB00751286 /* MDSettingCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A2A1FA233C000751286 /* MDSwitchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A261FA2333000751286 /* MDSwitchData.m */; };
-		8CD09A2B1FA233C000751286 /* MDSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A281FA2333000751286 /* MDSwitchCell.m */; };
-		8CD09A2C1FA233C000751286 /* MDTableViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A241FA2332200751286 /* MDTableViewData.m */; };
-		8CD09A2D1FA233C000751286 /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A211FA2332200751286 /* MDTableViewCell.m */; };
 		8CD09A2E1FA233C000751286 /* MDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A1E1FA2330600751286 /* MDSettingsViewController.m */; };
 		8CD09A2F1FA233C000751286 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A141FA2323D00751286 /* UIView+Frame.m */; };
 		8CD09A301FA233C000751286 /* UIColor+ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A161FA2323D00751286 /* UIColor+ColorUtils.m */; };
@@ -38,37 +21,18 @@
 		8CD09A351FA233CD00751286 /* MDSuspendBall.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A101FA2322000751286 /* MDSuspendBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A3D1FA2341D00751286 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD09A3E1FA2341D00751286 /* Masonry.framework */; };
 		8CD09A401FA239A600751286 /* MDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A3F1FA239A600751286 /* MDConstants.m */; };
-		8CD09A451FA23B4A00751286 /* MDSwitchData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A291FA2333000751286 /* MDSwitchData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A461FA23B4A00751286 /* MDSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A271FA2333000751286 /* MDSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A471FA23BF400751286 /* MDTableViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A221FA2332200751286 /* MDTableViewData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A481FA23BF400751286 /* MDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A231FA2332200751286 /* MDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A4A1FA23D4B00751286 /* MDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1B1FA2324F00751286 /* MDConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1C1FA2324F00751286 /* MDColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A4C1FA23D6500751286 /* UIColor+ColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A181FA2323D00751286 /* UIColor+ColorUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A811FA424A000751286 /* MDTableViewGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A821FA424A000751286 /* MDTableViewGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A801FA424A000751286 /* MDTableViewGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86A63F211FAB2F0C00C9019C /* MDLabelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLabelData.h; sourceTree = "<group>"; };
-		86A63F221FAB2F0C00C9019C /* MDLabelData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDLabelData.m; sourceTree = "<group>"; };
-		86A63F251FAB2F1900C9019C /* MDLabelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLabelCell.h; sourceTree = "<group>"; };
-		86A63F261FAB2F1900C9019C /* MDLabelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDLabelCell.m; sourceTree = "<group>"; };
-		86C938951FA321C100E945CD /* MDTextFieldData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldData.h; sourceTree = "<group>"; };
-		86C938961FA321C100E945CD /* MDTextFieldData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextFieldData.m; sourceTree = "<group>"; };
-		86C938991FA321CF00E945CD /* MDTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTextFieldCell.h; sourceTree = "<group>"; };
-		86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextFieldCell.m; sourceTree = "<group>"; };
-		86C9389E1FA33CED00E945CD /* MDSegmentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSegmentData.h; sourceTree = "<group>"; };
-		86C9389F1FA33CED00E945CD /* MDSegmentData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSegmentData.m; sourceTree = "<group>"; };
-		86C938A21FA33CFC00E945CD /* MDSegmentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSegmentCell.h; sourceTree = "<group>"; };
-		86C938A31FA33CFC00E945CD /* MDSegmentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSegmentCell.m; sourceTree = "<group>"; };
-		86C938A71FA3489000E945CD /* MDStepperData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDStepperData.h; sourceTree = "<group>"; };
-		86C938A81FA3489000E945CD /* MDStepperData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStepperData.m; sourceTree = "<group>"; };
-		86C938AB1FA3489C00E945CD /* MDStepperCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDStepperCell.h; sourceTree = "<group>"; };
-		86C938AC1FA3489C00E945CD /* MDStepperCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDStepperCell.m; sourceTree = "<group>"; };
+		8CA699891FAEC6220035A8B3 /* FXForms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
+		8CA6998A1FAEC6220035A8B3 /* FXForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXForms.h; sourceTree = "<group>"; };
+		8CA6998C1FAEC6570035A8B3 /* SettingForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingForm.h; sourceTree = "<group>"; };
+		8CA6998D1FAEC6570035A8B3 /* SettingForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingForm.m; sourceTree = "<group>"; };
 		8CD099FF1FA231FB00751286 /* MDSettingCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDSettingCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD09A021FA231FB00751286 /* MDSettingCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSettingCenter.h; sourceTree = "<group>"; };
-		8CD09A031FA231FB00751286 /* MDSettingCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSettingCenter.m; sourceTree = "<group>"; };
 		8CD09A071FA231FB00751286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD09A0F1FA2322000751286 /* MDSuspendBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSuspendBall.m; sourceTree = "<group>"; };
 		8CD09A101FA2322000751286 /* MDSuspendBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSuspendBall.h; sourceTree = "<group>"; };
@@ -80,18 +44,8 @@
 		8CD09A1C1FA2324F00751286 /* MDColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDColor.h; sourceTree = "<group>"; };
 		8CD09A1E1FA2330600751286 /* MDSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSettingsViewController.m; sourceTree = "<group>"; };
 		8CD09A1F1FA2330600751286 /* MDSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSettingsViewController.h; sourceTree = "<group>"; };
-		8CD09A211FA2332200751286 /* MDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewCell.m; sourceTree = "<group>"; };
-		8CD09A221FA2332200751286 /* MDTableViewData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewData.h; sourceTree = "<group>"; };
-		8CD09A231FA2332200751286 /* MDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewCell.h; sourceTree = "<group>"; };
-		8CD09A241FA2332200751286 /* MDTableViewData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewData.m; sourceTree = "<group>"; };
-		8CD09A261FA2333000751286 /* MDSwitchData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSwitchData.m; sourceTree = "<group>"; };
-		8CD09A271FA2333000751286 /* MDSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSwitchCell.h; sourceTree = "<group>"; };
-		8CD09A281FA2333000751286 /* MDSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSwitchCell.m; sourceTree = "<group>"; };
-		8CD09A291FA2333000751286 /* MDSwitchData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSwitchData.h; sourceTree = "<group>"; };
 		8CD09A3E1FA2341D00751286 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD09A3F1FA239A600751286 /* MDConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDConstants.m; sourceTree = "<group>"; };
-		8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTableViewGroup.h; sourceTree = "<group>"; };
-		8CD09A801FA424A000751286 /* MDTableViewGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTableViewGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,48 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		86A63F201FAB2EF100C9019C /* Label */ = {
+		8CA699881FAEC60C0035A8B3 /* FXForms */ = {
 			isa = PBXGroup;
 			children = (
-				86A63F211FAB2F0C00C9019C /* MDLabelData.h */,
-				86A63F221FAB2F0C00C9019C /* MDLabelData.m */,
-				86A63F251FAB2F1900C9019C /* MDLabelCell.h */,
-				86A63F261FAB2F1900C9019C /* MDLabelCell.m */,
+				8CA6998A1FAEC6220035A8B3 /* FXForms.h */,
+				8CA699891FAEC6220035A8B3 /* FXForms.m */,
 			);
-			path = Label;
+			path = FXForms;
 			sourceTree = "<group>";
 		};
-		86C938941FA3217B00E945CD /* TextField */ = {
+		8CA6998B1FAEC6400035A8B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				86C938951FA321C100E945CD /* MDTextFieldData.h */,
-				86C938961FA321C100E945CD /* MDTextFieldData.m */,
-				86C938991FA321CF00E945CD /* MDTextFieldCell.h */,
-				86C9389A1FA321CF00E945CD /* MDTextFieldCell.m */,
+				8CA6998C1FAEC6570035A8B3 /* SettingForm.h */,
+				8CA6998D1FAEC6570035A8B3 /* SettingForm.m */,
 			);
-			path = TextField;
-			sourceTree = "<group>";
-		};
-		86C9389D1FA335CD00E945CD /* Segment */ = {
-			isa = PBXGroup;
-			children = (
-				86C9389E1FA33CED00E945CD /* MDSegmentData.h */,
-				86C9389F1FA33CED00E945CD /* MDSegmentData.m */,
-				86C938A21FA33CFC00E945CD /* MDSegmentCell.h */,
-				86C938A31FA33CFC00E945CD /* MDSegmentCell.m */,
-			);
-			path = Segment;
-			sourceTree = "<group>";
-		};
-		86C938A61FA3485500E945CD /* Stepper */ = {
-			isa = PBXGroup;
-			children = (
-				86C938A71FA3489000E945CD /* MDStepperData.h */,
-				86C938A81FA3489000E945CD /* MDStepperData.m */,
-				86C938AB1FA3489C00E945CD /* MDStepperCell.h */,
-				86C938AC1FA3489C00E945CD /* MDStepperCell.m */,
-			);
-			path = Stepper;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8CD099F51FA231FB00751286 = {
@@ -170,13 +98,13 @@
 		8CD09A011FA231FB00751286 /* MDSettingCenter */ = {
 			isa = PBXGroup;
 			children = (
-				8CD09A201FA2331700751286 /* Cell */,
+				8CA6998B1FAEC6400035A8B3 /* Models */,
+				8CA699881FAEC60C0035A8B3 /* FXForms */,
 				8CD09A1D1FA232FE00751286 /* ViewController */,
 				8CD09A1A1FA2324900751286 /* Values */,
 				8CD09A111FA2323400751286 /* CommonView */,
 				8CD09A0E1FA2321000751286 /* Views */,
 				8CD09A021FA231FB00751286 /* MDSettingCenter.h */,
-				8CD09A031FA231FB00751286 /* MDSettingCenter.m */,
 				8CD09A071FA231FB00751286 /* Info.plist */,
 			);
 			path = MDSettingCenter;
@@ -221,35 +149,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		8CD09A201FA2331700751286 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				86A63F201FAB2EF100C9019C /* Label */,
-				86C938A61FA3485500E945CD /* Stepper */,
-				86C9389D1FA335CD00E945CD /* Segment */,
-				86C938941FA3217B00E945CD /* TextField */,
-				8CD09A251FA2332900751286 /* Switch */,
-				8CD09A221FA2332200751286 /* MDTableViewData.h */,
-				8CD09A241FA2332200751286 /* MDTableViewData.m */,
-				8CD09A231FA2332200751286 /* MDTableViewCell.h */,
-				8CD09A211FA2332200751286 /* MDTableViewCell.m */,
-				8CD09A7F1FA424A000751286 /* MDTableViewGroup.h */,
-				8CD09A801FA424A000751286 /* MDTableViewGroup.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		8CD09A251FA2332900751286 /* Switch */ = {
-			isa = PBXGroup;
-			children = (
-				8CD09A291FA2333000751286 /* MDSwitchData.h */,
-				8CD09A261FA2333000751286 /* MDSwitchData.m */,
-				8CD09A271FA2333000751286 /* MDSwitchCell.h */,
-				8CD09A281FA2333000751286 /* MDSwitchCell.m */,
-			);
-			path = Switch;
-			sourceTree = "<group>";
-		};
 		8CD09A3C1FA2341D00751286 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,23 +166,12 @@
 			files = (
 				8CD09A081FA231FB00751286 /* MDSettingCenter.h in Headers */,
 				8CD09A341FA233CD00751286 /* MDSettingsViewController.h in Headers */,
-				8CD09A451FA23B4A00751286 /* MDSwitchData.h in Headers */,
-				8CD09A471FA23BF400751286 /* MDTableViewData.h in Headers */,
-				8CD09A481FA23BF400751286 /* MDTableViewCell.h in Headers */,
 				8CD09A4A1FA23D4B00751286 /* MDConstants.h in Headers */,
 				8CD09A4C1FA23D6500751286 /* UIColor+ColorUtils.h in Headers */,
-				86C938A91FA3489000E945CD /* MDStepperData.h in Headers */,
-				86C938AD1FA3489C00E945CD /* MDStepperCell.h in Headers */,
-				86C938A01FA33CED00E945CD /* MDSegmentData.h in Headers */,
-				86C938A41FA33CFC00E945CD /* MDSegmentCell.h in Headers */,
-				86C9389B1FA321CF00E945CD /* MDTextFieldCell.h in Headers */,
-				86C938971FA321C100E945CD /* MDTextFieldData.h in Headers */,
-				86A63F271FAB2F1900C9019C /* MDLabelCell.h in Headers */,
-				86A63F231FAB2F0C00C9019C /* MDLabelData.h in Headers */,
 				86A63F3F1FAB3AE600C9019C /* UIView+Frame.h in Headers */,
 				8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */,
-				8CD09A811FA424A000751286 /* MDTableViewGroup.h in Headers */,
-				8CD09A461FA23B4A00751286 /* MDSwitchCell.h in Headers */,
+				8CA6998E1FAEC6570035A8B3 /* SettingForm.h in Headers */,
+				8CA699991FAECB8A0035A8B3 /* FXForms.h in Headers */,
 				8CD09A351FA233CD00751286 /* MDSuspendBall.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,25 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD09A2A1FA233C000751286 /* MDSwitchData.m in Sources */,
-				86A63F281FAB2F1900C9019C /* MDLabelCell.m in Sources */,
-				8CD09A2B1FA233C000751286 /* MDSwitchCell.m in Sources */,
-				8CD09A821FA424A000751286 /* MDTableViewGroup.m in Sources */,
+				8CA699981FAECB4E0035A8B3 /* FXForms.m in Sources */,
 				8CD09A401FA239A600751286 /* MDConstants.m in Sources */,
-				8CD09A2C1FA233C000751286 /* MDTableViewData.m in Sources */,
-				86A63F241FAB2F0C00C9019C /* MDLabelData.m in Sources */,
-				8CD09A2D1FA233C000751286 /* MDTableViewCell.m in Sources */,
-				86C938A11FA33CED00E945CD /* MDSegmentData.m in Sources */,
-				86C938AE1FA3489C00E945CD /* MDStepperCell.m in Sources */,
-				86C938981FA321C100E945CD /* MDTextFieldData.m in Sources */,
-				86C938AA1FA3489000E945CD /* MDStepperData.m in Sources */,
-				86C9389C1FA321CF00E945CD /* MDTextFieldCell.m in Sources */,
 				8CD09A2E1FA233C000751286 /* MDSettingsViewController.m in Sources */,
+				8CA6998F1FAEC6570035A8B3 /* SettingForm.m in Sources */,
 				8CD09A2F1FA233C000751286 /* UIView+Frame.m in Sources */,
 				8CD09A301FA233C000751286 /* UIColor+ColorUtils.m in Sources */,
 				8CD09A331FA233C000751286 /* MDSuspendBall.m in Sources */,
-				86C938A51FA33CFC00E945CD /* MDSegmentCell.m in Sources */,
-				8CD09A041FA231FB00751286 /* MDSettingCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

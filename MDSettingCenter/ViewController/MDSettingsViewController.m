@@ -91,6 +91,13 @@
     return _closeButtonItem;
 }
 
+#pragma mark - UIScrollViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (scrollView.contentOffset.y < -220) {
+        [self exit];
+    }
+}
+
 #pragma mark - Getter & Setter
 
 -(MDSuspendBall *)suspendBall{

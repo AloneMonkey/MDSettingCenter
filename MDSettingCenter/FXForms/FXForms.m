@@ -1575,6 +1575,8 @@ static void FXFormPreprocessFieldDictionary(NSMutableDictionary *dictionary)
     else
     {
         [collection addObjectsFromArray:self.values];
+        // 删除 NSNull，如果是 Swift 的 Pod 会造成崩溃
+        [collection removeObjectIdenticalTo:[NSNull null]];
     }
     
     //set field value
@@ -1717,6 +1719,7 @@ static void FXFormPreprocessFieldDictionary(NSMutableDictionary *dictionary)
                 section.form = form;
                 section.header = field.header;
                 section.isSortable = ([form isKindOfClass:[FXTemplateForm class]] && ((FXTemplateForm *)form).field.isSortable);
+                section.footer = field.footer;
                 [sections addObject:section];
             }
             [section.fields addObject:field];

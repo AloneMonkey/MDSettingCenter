@@ -19,7 +19,6 @@
 		8CD09A331FA233C000751286 /* MDSuspendBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A0F1FA2322000751286 /* MDSuspendBall.m */; };
 		8CD09A341FA233CD00751286 /* MDSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1F1FA2330600751286 /* MDSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A351FA233CD00751286 /* MDSuspendBall.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A101FA2322000751286 /* MDSuspendBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD09A3D1FA2341D00751286 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD09A3E1FA2341D00751286 /* Masonry.framework */; };
 		8CD09A401FA239A600751286 /* MDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD09A3F1FA239A600751286 /* MDConstants.m */; };
 		8CD09A4A1FA23D4B00751286 /* MDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1B1FA2324F00751286 /* MDConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD09A4B1FA23D4B00751286 /* MDColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD09A1C1FA2324F00751286 /* MDColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD09A3D1FA2341D00751286 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
